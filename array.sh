@@ -1,7 +1,11 @@
 #!/bin/bash
 
-Fruits=$("mango" "apple" "banana")
+FRUITS=("Apple" "Banana" "Mango")
 
-echo "first value is: ${Fruits[0]}"
-echo "second value is: ${Fruits[1]}"
-echo "third value is: ${Fruits[2]}"
+echo "First value: ${FRUITS[0]}"
+
+echo "Second value: ${FRUITS[1]}"
+
+echo "Second value: ${FRUITS[2]}"
+
+echo "All Fruits: ${FRUITS[@]}"
